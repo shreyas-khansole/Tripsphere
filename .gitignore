@@ -1,0 +1,20 @@
+# Secrets — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local data & logs (each install seeds/generates its own)
+data/tripsphere.db
+data/tripsphere.db-shm
+data/tripsphere.db-wal
+logs/*.log
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
